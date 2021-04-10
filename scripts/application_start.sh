@@ -1,13 +1,13 @@
 #!/bin/bash
 
 #give permission for everything in the express-app directory
-sudo chmod -R 777 /home/ubuntu/projects/TP2_test
+sudo chmod -R 777 /home/ubuntu/projects/collab-be
 
 #navigate into our working directory where we have all our github files
-cd /home/ubuntu/projects/TP2_test
+cd /home/ubuntu/projects/collab-be
 
 #install node modules
 npm install
 
 #start our node app in the background
-pm2 restart collab-be > app.out.log 2> app.err.log < /dev/null & 
+pm2 start "node index.js" --name "collab-be"
