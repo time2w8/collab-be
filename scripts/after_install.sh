@@ -4,4 +4,4 @@ echo "NPM INSTALL"
 mkdir /home/ubuntu/projects/collab-be
 cd /home/ubuntu/projects/collab-be
 
-npm install
+sudo /usr/bin/npm install
