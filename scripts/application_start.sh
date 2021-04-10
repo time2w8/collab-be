@@ -2,5 +2,5 @@
 set -e
 # Stop all servers and start the server as a daemon
 echo "STARTING APP"
-forever stopall
-forever start /home/ubuntu/projects/collab-be/app.js
+sudo forever stopall
+sudo forever start /home/ubuntu/projects/collab-be/app.js
