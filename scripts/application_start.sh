@@ -10,4 +10,4 @@ cd /home/ubuntu/projects/collab-be
 npm install
 
 #start our node app in the background
-pm2 start "node index.js" --name "collab-be"
+node index.js > app.out.log 2> app.err.log < /dev/null & 

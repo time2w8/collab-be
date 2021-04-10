@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/projects/TP2_test
+    destination: /home/ubuntu/projects/collab-be
 hooks:
   ApplicationStop:
     - location: scripts/application_stop.sh
