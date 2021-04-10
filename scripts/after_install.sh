@@ -4,4 +4,4 @@ echo "NPM INSTALL"
 mkdir /home/ubuntu/nodejs
 cd /home/ubuntu/nodejs
 
-sudo npm install
+npm install

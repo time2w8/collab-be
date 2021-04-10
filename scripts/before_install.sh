@@ -6,4 +6,4 @@ sudo apt-get update
 sudo apt-get install nodejs -y
 #create our working directory if it doesnt exist
 echo "INSTALLING FOREVER"
-sudo npm install forever -g
+npm install forever -g
