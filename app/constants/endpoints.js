@@ -1,6 +1,6 @@
 const endpoints = {
     API_NAME: '/api',
-    API_VERSION: '/v1.0',
+    API_VERSION: '/v2.0',
     COLLABORATORS_URL: {
         MAIN: '/collaborators',
         OPERATIONS: {
